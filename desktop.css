@@ -1,0 +1,121 @@
+@media (min-width: 36rem) {
+  .headline {
+    padding: 7.125rem 1.5rem;
+  }
+}
+
+@media (min-width: 48rem) {
+  body {
+    min-width: 100%;
+  }
+
+  .profile {
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    width: 90px;
+    border-radius: 50%;
+  }
+
+  .headline {
+    padding: 260px;
+    background-image: url(img/sat4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 5s;
+    background-color: #172b4d;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+  }
+
+  .headline h1 {
+    max-width: 70%;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.75rem;
+  }
+
+  .work {
+    padding: 8.85rem;
+  }
+
+  .work > div {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    gap: 1.5rem;
+  }
+
+  .img {
+    max-width: 50%;
+  }
+
+  .img img {
+    max-width: 100%;
+  }
+
+  .content_work {
+    max-width: 50%;
+    gap: 2rem;
+  }
+
+  #work_2,
+  #work_4 {
+    flex-direction: row-reverse;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    padding: 8.875rem;
+  }
+
+  .about_content {
+    width: 50%;
+  }
+
+  .about_info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .drop1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .drop1 li {
+    flex-direction: \\	 column;
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  .contact {
+    justify-content: center;
+    padding: 10% 28%;
+  }
+
+  .contact input,
+  .contact textarea {
+    border-radius: 0;
+  }
+
+  .contact form {
+    justify-content: flex-start;
+  }
+
+  .contact form button {
+    align-self: center;
+  }
+
+  /* popup menu */
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATRICK MWANGI PORTIFOLIO</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dcdd89c74c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="desktop.css">
+	
+	
+</head>
+<body class="body1">
+	
+	<!-- header -->
+	<header>
+        <nav class="navbar">
+            <a href="#" class="head">Patrick</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#headline " class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+	<script src="Humburger.js" defer></script>
+
+	<!-- section headline -->
+
+	<section class="headline" id="headline">
+		<h1>I’m Patrick
+			Glad to see you!</h1>
+		<p>I’m a software developer! I can help 
+			you build a product , feature or website Look through 
+			some of my work and experience! If you like what
+			you see and have a project you need coded, don’t
+		    hestiate to contact me. I am also Highly skilled in GIS 
+			professional with a Bachelor of Science degree in Geospatial Information Science with IT. Proven experience in spatial analysis, data collection, and GIS mapping. Seeking challenging opportunities to contribute expertise in GIS and remote sensing to support organizations in making informed decisions and solving complex problems.
+		</p>
+		<h3 class="connect"><a href="">LET’S CONNECT</a></h3>
+		<ul class="tags">
+			<li><a href=""><img src="img/github.svg" alt="Github Account"></a></li>
+			<li><a href=""><img src="img/Linkedin.svg" alt="Linkedin Account"></a></li>
+			<li><a href=""><img src="img/medium.svg" alt="Medium Account"></a></li>
+			<li><a href=""><img src="img/twiter.svg" alt="Twiter Account"></a></li>
+			<li><a href=""><img src="img/chill.svg" alt="Extra Account"></a></li>
+		</ul>
+	</section>
+
+	<!-- section work -->
+
+	<section class="work" id="work">
+	</section>
+
+	<!-- section about -->
+
+	<section class="about" id="about">
+		<div class="about_content">
+			<img class="profile" src="img/Cropped_20221012_120205.jpg" alt="">
+			<h2>About Myself</h2>
+			<p>
+				Hello I’m a software developer! 
+				I can help you build a product ,
+				feature or website Look through
+				some of my work and experience!
+				If you like what you see and have a project you need coded, 
+				don’t hestiate to contact me.
+			</p>
+			<h3 class="connect"><a href="">LET’S CONNECT</a></h3>
+			<ul class="tags">
+				<li><a href=""><img src="img/github.svg" alt="Github Account"></a></li>
+				<li><a href=""><img src="img/Linkedin.svg" alt="Linkedin Account"></a></li>
+				<li><a href=""><img src="img/medium.svg" alt="Medium Account"></a></li>
+				<li><a href=""><img src="img/twiter.svg" alt="Twiter Account"></a></li>
+				<li><a href=""><img src="img/chill.svg" alt="Extra Account"></a></li>
+			</ul>
+			<button  type="button" class="btn">Get my resume</button>
+	    </div>
+		<div class="about_info">
+			<div class="lang1">
+				<h3>Languages</h3>
+				<img src="img/Union.svg" alt="Dropdown-list Symbol">
+			</div>
+			<ul class="drop1">
+				<li>
+					<img src="img/js_Ellipse 1.svg" alt="Javascript Handle">
+					<p>Javascript</p>
+				</li>
+				<li>
+					<img src="img/html_Ellipse 1.svg" alt="HTML Handle">
+					<p>HTML</p>
+				</li>
+				<li>
+					<img src="img/css-Ellipse 1.svg" alt="CSS Handle">
+					<p>css</p>
+				</li>
+			</ul>
+			<div class="lang2">
+				<h3>Frameworks</h3>
+				<img src="img/Unionarrdwn.svg" alt="Dropdown-list symbol">
+			</div>
+			<hr>
+			<div class="lang3">
+				<h3>skills</h3>
+				<img src="img/Unionarrdwn.svg" alt="Dropdown-list Symbol">
+			</div>
+			<hr>
+		</div>	
+	</section>
+
+	<!-- section contact -->
+
+	<section class="contact_info" id="contact-info">
+	<div class="contact" id="contact">
+		<div class="contact_wrapper">
+			<h2 class="section_header">
+				Contact me
+			</h2>
+			<p class="description">
+				If you have an application you are interested in developing, 
+    			a feature that you need built or a project that needs coding. I’d love to help with it
+			</p>
+			<form action="https://formspree.io/f/mrgdnlkl" method="post" class="form" id="form">
+				<input type="text" name="user_name" placeholder="Enter you name" required maxlength="30">
+				<input type="email" name="email" placeholder="Enter your email" required>
+        <textarea name="user_message" cols="30" rows="5" placeholder="Write your message here" required maxlength="500" name="message"></textarea>
+        <button class="buttons" type="submit">Get in Touch</button>
+		<p class="validation_msg d-none"></p>
+			</form>
+		</div>
+	</div>
+
+</section>
+
+
+<script src="validation.js"></script>
+<div class="popup d-none">
+	<div class="popup-content">
+		<div class="popup-header">
+			<i class="fa-solid fa-xmark popup-close"></i>
+			<h2 class="popup-title">Tonic</h2>
+		</div>
+		<div class="popup-text"><div class="up1 unique">
+			<div class="p1">CANOPY</div>
+			<div class="counter"></div>
+			<div class="p2">Back End Dev</div>
+			<div class="counter"></div>
+			<div class="p3">2015</div>
+			</div>
+		</div>
+		<img src="images/sec2 mobile.svg" alt="" class="popup-image">
+		<div class="left-right-wrapper">
+			<div class="left-wrapper">
+				<p class="popup-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+			</div>
+			<div class="right-wrapper">
+				<div>
+					<ul class="middle lang-popup">
+						<li class="back-link1 back-link">
+							<div class="link1">html</div>
+						</li>
+						<li class="back-link2 back-link">
+							<div class="link2">css</div>
+						</li>
+						<li class="back-link3 back-link">
+							<div class="link3">javaScript</div>
+						</li>
+					</ul>
+				</div>
+				<hr class="hr-popup">
+				<div class="popup-btns">
+					<button class="see-project1 popup-btn">
+						<div class="see-project">
+							See live &apos;
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M5 12C5 8.13401 8.13401 5 12 5C12.5523 5 13 4.55228 13 4C13 
+								3.44772 12.5523 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 11.4477 
+								20.5523 11 20 11C19.4477 11 19 11.4477 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12ZM16 3C15.4477 3 
+								15 3.44772 15 4C15 4.55228 15.4477 5 16 5H17.5858L11.2929 11.2929C10.9024 11.6834 10.9024 12.3166 11.2929 
+								12.7071C11.6834 13.0976 12.3166 13.0976 12.7071 12.7071L19 6.41421V8C19 8.55228 19.4477 9 20 9C20.5523 9 21 
+								8.55228 21 8V4C21 3.44772 20.5523 3 20 3H16Z" fill="#6070FF"/>
+							</svg>
+						</div>
+					</button>
+					<button class="see-project1">
+						<div class="see-project popup-btn2">See source &apos;<img src="images/blue-github.svg" class="btn-space"></div>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script src="popup2.js"></script>
+</html>
