@@ -145,6 +145,10 @@ header{
   }
 }
 
+section{
+  margin: auto;
+}
+
 /* headline */
 .profile {
   position: fixed;
@@ -154,6 +158,7 @@ header{
 }
 
 .headline {
+
   display: flex;
   flex-direction: column;
   padding: 7.125rem 1.5rem;
