@@ -27,7 +27,6 @@ header{
   position: fixed;
   z-index: 1;
   margin: auto;
-  max-width:375px;
   right: 0px;
   left: 0px;
   background: #172b4d;
