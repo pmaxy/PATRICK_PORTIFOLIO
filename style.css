@@ -169,7 +169,6 @@ section{
   background-image: url(img/sat4.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  position: absolute;
   top: 0;
   background-size: cover;
   animation-name: animate;
@@ -239,8 +238,6 @@ section{
 /* work */
 
 .work {
-  position: absolute;
-  top: 50rem;
   display: grid;
   grid-template-columns: 1fr;
   gap: 100px;
@@ -391,8 +388,6 @@ section{
 
 /* About */
 .about {
-  position: absolute;
-  top: 295rem;
   background: #fff;
   padding: 7.125rem 1.5rem;
 }
@@ -453,8 +448,6 @@ section{
 }
 
 .contact {
-  position: absolute;
-  top:356rem;
   text-align: center;
   background-color: #6070ff;
   border-top-left-radius: 7.5rem;
