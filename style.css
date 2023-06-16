@@ -440,6 +440,7 @@ section{
   color: #253858;
 }
 
+
 /* contact_form */
 
 .contact_info {
@@ -587,6 +588,17 @@ section{
   display: none;
 }
 
+.map{
+  display: flex;
+}
+
+#map{
+  background-color:gold;
+  height: 40rem;
+  width: 100%;
+}
+
+
 @media (min-width: 768px) {
   .popup {
     font-style: italic;
@@ -634,3 +646,4 @@ section{
     margin-left: 2px;
   }
 }
+
