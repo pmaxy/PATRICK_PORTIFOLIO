@@ -43,12 +43,15 @@ header {
   margin-left: 820px;
 }
 .head {
-  font-size: 1.2em;
+  color: #FFF;
+  font-size: 1.8em;
   font-weight: 700;
 }
 .nav-link {
   transition: 0.7s ease;
-  color: black;
+  color: white;
+  font-size: 1.1em;
+  font-weight: 500;
 }
 .nav-link:hover {
   color: rgb(45, 245, 245);

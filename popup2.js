@@ -5,7 +5,7 @@ const projectArr = [
     details: ['EMPLOYMENT', 'Devops Engineer', "2024-Present"],
     image: 'img/equitybank.jpg',
     desktopImage: 'img/equitybank.jpg',
-    description: 'Using Azure DevOps, I created and managed CI/CD pipelines that automated application builds, testing, and deployments. Developed scalable microservices and APIs in Java, allowing for easy integration of various data sources.Containerized apps were deployed using Docker and Kubernetes to ensure high availability and scalability across several environments.Infrastructure as Code (IaC) was implemented using Terraform, which streamlined resource provisioning. Pipelines are secured with vulnerability screening and access controls to ensure compliance with corporate requirements.',
+    description: 'Using Azure DevOps, I built and managed CI/CD pipelines to automate application builds, testing, and deployments. I developed scalable microservices and APIs in Java, enabling seamless data integration. Containerized applications were deployed with Docker and Kubernetes for high availability and scalability. I implemented Infrastructure as Code (IaC) using Terraform to streamline resource provisioning. Security measures, including vulnerability scanning and access controls, ensured compliance with corporate standards.',
     technologies: ['Azure Devops', 'Docker', 'Kubernetes'],
     live: 'https://pmaxy.github.io/setup-and-mobile-first/',
     source: 'https://github.com/pmaxy/setup-and-mobile-first',
@@ -16,7 +16,7 @@ const projectArr = [
     details: ['EMPLOYMENT', 'Software Developer', 2023-2024],
     image: 'img/em.webp',
     desktopImage: 'img/em.webp',
-    description: 'Developed strong backend systems utilizing Java and Spring Boot to support a wide range of business applications.Created data-driven workflows to manage complicated processing tasks, using relational databases and cloud platforms.Collaboration with cross-functional teams improved system performance and scalability.',
+    description: 'Developed robust backend and frontend systems using Java, TypeScript, Vue.js, React, Angular, and Spring Boot to support diverse business applications. Designed data-driven workflows to handle complex processing tasks, leveraging relational databases and cloud platforms. Collaborated with cross-functional teams to enhance system performance and scalability.',
     technologies: ['Angular', 'Spring Boot', 'React'],
     live: 'https://pmaxy.github.io/setup-and-mobile-first/',
     source: 'https://github.com/pmaxy/setup-and-mobile-first',
@@ -24,10 +24,10 @@ const projectArr = [
   {
     id: 2,
     title: 'GOOGLE PLUS CODE',
-    details: ['EMPLOYMENT', 'Supervisopr', 2022],
+    details: ['EMPLOYMENT', 'Supervisopr', 2022-2023],
     image: 'img/pluscode.png',
     desktopImage: 'img/pluscode.png',
-    description: 'From November 2021 to December 2022, I had the duty of educating enumerators and managing the digital addressing procedures for Kisumu County households as a Google Plus Code Trainer and Supervisor. Through this position, I was able to make sure that the addressing procedures were followed precisely and effectively as well as that the training was thorough and effective. I significantly improved the county`s digital addressing system, which helped to make it more accessible and organized for the citizens.',
+    description: 'From November 2021 to june 2023, I had the duty of educating enumerators and managing the digital addressing procedures for Kisumu County households as a Google Plus Code Trainer and Supervisor. Through this position, I was able to make sure that the addressing procedures were followed precisely and effectively as well as that the training was thorough and effective. I significantly improved the county`s digital addressing system, which helped to make it more accessible and organized for the citizens.',
     technologies: ['Arcpy', 'Python', 'ArcPro'],
     live: 'https://pmaxy.github.io/setup-and-mobile-first/',
     source: 'https://github.com/pmaxy/setup-and-mobile-first',
@@ -38,7 +38,7 @@ const projectArr = [
     details: ['EMPLOYMENT', 'ASS SPATIAL ANALYST', 2021],
     image: 'img/uhai.jpg',
     desktopImage: 'img/uhai.jpg',
-    description: 'I have successfully created geodatabases for Kobo`s humanitarian server and desktop applications as a seasoned GIS professional. The SEACAP initiative, which focuses on access to sustainable energy and climate action, also relies heavily on the analysis and presentation of spatial data, and I have played a critical part in both of these endeavors. I have been able to contribute to these initiatives successfully according to my knowledge of geodatabase design and spatial data analysis, demonstrating my aptitude for using GIS technology for data management and visualization in support of important projects.',
+    description: 'As a GIS professional, I successfully created geodatabases for Kobo’s humanitarian server and desktop applications. I also played a key role in the SEACAP initiative, which focuses on sustainable energy access and climate action, by analyzing and presenting spatial data. My expertise in geodatabase design and spatial data analysis has enabled me to contribute effectively to these initiatives, demonstrating my ability to use GIS technology for data management and visualization in critical projects.',
     technologies: ['Spss', 'ArcPro', 'Excel'],
     live: 'https://pmaxy.github.io/setup-and-mobile-first/',
     source: 'https://github.com/pmaxy/setup-and-mobile-first',
@@ -51,7 +51,7 @@ const projectArr = [
     details: ['EMPLOYMENT', 'Data collection Officer', 2023],
     image: 'img/cyglobe.jpg',
     desktopImage: 'img/cyglobe.jpg',
-    description: 'I engaged on Makindu Town Planning in April 2023, where I gathered and analyzed data. As part of my job, I had to acquire pertinent data and analyze it to help with town planning. Through this project, I was able to put my data analytic talents to use and help Makindu Town plan in an efficient way.',
+    description: 'In April 2023, I participated in the Makindu Town Planning project, where I was responsible for data collection and analysis to support urban planning efforts. My role involved gathering relevant spatial and statistical data, analyzing trends, and providing insights to enhance the planning process. This experience allowed me to apply my data analytics skills and contribute to the efficient development of Makindu Town.',
     technologies: ['Autocad', 'Archicad', 'Qgis'],
     live: 'https://pmaxy.github.io/setup-and-mobile-first/',
     source: 'https://github.com/pmaxy/setup-and-mobile-first',
@@ -62,23 +62,34 @@ const projectArr = [
     details: ['EMPLOYMENT', 'Data collection Officer', 2021],
     image: 'img/GeoPlan_Logo.png',
     desktopImage: 'img/GeoPlan_Logo.png',
-    description: 'I had the chance to contribute to the Oyugis Local Land Use Development Plan (LPLUDP) as a skilled data analyst and gatherer. Editing cadastral files and carrying out data collection tasks were among my duties. I was a key contributor to the creation and execution of the land use plan by guaranteeing accurate and current information. I helped the project get off the ground successfully by paying close attention to the little things and being dedicated to excellence.',
+    description: 'I contributed to the Oyugis Local Land Use Development Plan (LPLUDP) as a data analyst and collector. My responsibilities included editing cadastral files and conducting data collection to ensure accuracy and up-to-date information. I played a key role in the development and implementation of the land use plan, leveraging attention to detail and a commitment to excellence to support the projects successful launch.',
     technologies: ['Qgis', 'Arcmap', 'ArcPro'],
     live: 'https://pmaxy.github.io/setup-and-mobile-first/',
     source: 'https://github.com/pmaxy/setup-and-mobile-first',
   },
   {
     id: 6,
-    title: 'Kisumu County Government',
-    details: ['vOLUNTEER ', 'GIS Analyst', 2019-2020],
-    image: 'img/Kisumu county beach.jpg',
-    desktopImage: 'img/Kisumu county beach.jpg',
-    description: 'I worked on numerous initiatives as a volunteer in the Kisumu County government`s GIS division. I mapped the county`s gas stations and gathered information on the Sondu and Katito markets for land-use planning. In addition, I reviewed the GIS draft evaluation roll for Kisumu County and took part in labor market planning. Additionally, I aided in the analysis of climatic and weather changes and worked on geographical analytic projects with Transparency International. In addition, I helped UN-Habitat map socioeconomic information in Kisumu city`s informal settlements and collected data and made maps of the handwashing stations that are already present there for COVID-19 mitigation.',
+    title: 'Kisumu County Government:Planning and Climate Department',
+    details: ['vOLUNTEER ', 'GIS Analy', 2020],
+    image: 'img/climate2.jpg',
+    desktopImage: 'img/climate1.jpg',
+    description: 'Assistant Spatial Analyst for Kisumu Weather and Climate Change Analysis. Responsible for map production of Temperature (LST), Rainfall, Land Use, Land Cover, NDMI, NDVI, and NDBI. Conducted data collection on existing handwashing stations using Kobo Collect to assess proposed COVID-19 mitigation measures and mapped informal settlements. Additionally, mapped socio-economic data on existing facilities in Kisumus informal settlements for COVID-19 mitigation.',
     technologies: ['Qgis', 'Arcpy', 'Python'],
     live: 'https://pmaxy.github.io/setup-and-mobile-first/',
     source: 'https://github.com/pmaxy/setup-and-mobile-first',
   },
 
+  {
+    id: 7,
+    title: 'Kisumu County Government:GIS Department',
+    details: ['GIS ANALYST AND SOFTWARE DEVELOPER ', 'GIS Analyst', 2019],
+    image: 'img/Kisumu county beach.jpg',
+    desktopImage: 'img/Kisumu county beach.jpg',
+    description: 'As a volunteer in the Kisumu County Governments GIS division, I contributed to several initiatives, including mapping gas stations and collecting data for land-use planning in Sondu and Katito markets. I also reviewed the GIS draft evaluation roll for Kisumu County and participated in labor market planning, ensuring accurate spatial data for informed decision-making.',
+    technologies: ['Qgis', 'Arcpy', 'Python'],
+    live: 'https://pmaxy.github.io/setup-and-mobile-first/',
+    source: 'https://github.com/pmaxy/setup-and-mobile-first',
+  },
  
 
 ];
@@ -90,7 +101,8 @@ let html = '';
 
 projectArr.forEach((project) => {
   html += `
-    <div>
+    <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" data-aos-duration="1000" >
 			<div class="img"><img src="${project.image}" alt="Multistories symbol"></div>
 			<div class="content_work">
 				<h2>${project.title}</h2>
